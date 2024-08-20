@@ -1,4 +1,7 @@
-# Update and install the specific version of HAProxy
+#!/usr/bin/env bash
+#Install haproxy and configurate both servers
+
+
 apt-get -y update
 apt-get -y install haproxy=1.6.*
 
